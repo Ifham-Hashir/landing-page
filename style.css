@@ -3,12 +3,62 @@
   padding: 0;
 }
 
+.hero{
+  background: rgb(43, 106, 173);
+  height: 360px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  font-family: sans-serif;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.hero-info{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  font-family: sans-serif;
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 380px;
+  gap: 12px;
+  
+}
+
+.hero-button{
+  width: 80px;
+  border-radius: 10px;
+  background-color: rgb(37, 34, 34);
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+
 .logo {
   height: 80px;
   width: 80px;
 }
 
 .hero-image {
-  height: 250px;
-  width: 400px;
+  height: 200px;
+  width: auto;
 }
+
