@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+.hero-image {
+  height: 250px;
+  width: 400px;
+}
