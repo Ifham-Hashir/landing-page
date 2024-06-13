@@ -12,7 +12,7 @@ body {
 /* HERO SECTION */
 
 .hero{
-  background: rgb(133, 49, 31);
+  background: darkred;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,12 +52,12 @@ ul{
 }
 
 .hero-button{
-  width: 80px;
-  border-radius: 10px;
+  width: 100px;
+  border-radius: 7px;
   background-color: rgb(37, 34, 34);
   font-weight: bold;
   color: white;
-  border: none;
+  border: 2px solid white;
   padding: 5px;
 }
 
@@ -96,6 +96,8 @@ ul{
 .image-text img {
   height: 150px;
   width: 200px;
+  border: 5px solid darkred;
+  border-radius: 10px;
 }
 
 /* QUOTE SECTION */
@@ -126,4 +128,52 @@ ul{
   align-self: flex-end;
   font-weight: bold;
   font-family: sans-serif;
+}
+
+/* SIGN UP SECTION */
+
+.sign-up-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.sign-up-container{
+  display: flex;
+  width: 1000px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  background-color: darkred;
+  border-radius: 10px;
+}
+
+.sign-up-text {
+  font-family: sans-serif;
+  font-size: medium;
+  color: white;
+}
+
+.sign-up-container button {
+  width: 100px;
+  border-radius: 7px;
+  background-color: rgb(37, 34, 34);
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.footer {
+  width: 100%;
+  height: 40px;
+  background-color: darkred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  color: white;
 }
